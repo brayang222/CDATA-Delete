@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Procesador de XML</h1>
+    <label for="xmlFile">Seleccionar archivo XML</label>
+    <input type="file" id="xmlFile" accept=".xml">
+    <button id="processButton">Procesar</button>
+    <div class="buttons">
+    <button id="downloadButton" style="display: none;">Descargar XML</button>
+    <button id="copyButton" style="display: none;">Copiar al Portapapeles</button>
+  </div>
+    <h2>Archivo XML Modificado:</h2>
+    <pre id="modifiedXml"></pre>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
